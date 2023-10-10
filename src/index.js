@@ -33,6 +33,9 @@ const fetchPokemons = () => {
       console.log(`Name of the first Pokémon: ${firstPokemonName}`);
 
       // c) Log the names of all Pokémon in the array
+      // pokeArray.forEach(pokemon => {
+      //   console.log(pokemon.name);
+      // });
       const allPokemonNames = pokemonArray.map((pokemon) => pokemon.name);
       console.log("Names of all Pokémon:", allPokemonNames);
     })
